@@ -1,3 +1,3 @@
 # pixelartmaker
 create your own art
-[My image](enesgokdemir.github.com/repository/img/resim.png)
+[My image](enesgokdemir.github.com/pixelartmaker/resim.png)
