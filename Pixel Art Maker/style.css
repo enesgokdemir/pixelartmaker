@@ -1,0 +1,78 @@
+.block{
+    background: rgb(236, 236, 236);
+    border: 1px solid rgb(236, 236, 236);
+}
+
+*{
+    font-family: quicksand;
+}
+
+.block:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.board{
+    background: white;
+    display: grid;
+    border: 3px solid black;
+    grid-template-columns: repeat(40, auto);
+    height: 500px; width: 500px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.lastColors{
+    display: grid;
+    grid-template-columns: repeat(20, auto);
+    border: 2px solid black;
+    width: 500px;
+    vertical-align: center;
+    gap: 2px;
+    overflow: scroll;
+    height: 30px;
+}
+
+.colorPal{
+    height: 30px; width: 30px;
+    transition: all 0.5s ease;
+}
+
+.colorPal:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 1.5px black;
+}
+
+button{
+    background: rgb(31,52,56);
+    font-weight: bolder;
+    color: white;
+    border: 2px solid black;
+}
+
+button:hover{
+    background: rgb(135,201,201);
+    color: black;
+    cursor: pointer;
+}
+
+input{
+    background: rgb(127, 181,181);
+    font-weight: bolder;
+    border-radius: 0px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+}
+
+input:hover{
+    background: rgb(255, 0, 0);
+    color: black;
+    cursor: pointer;
+}
+
+input:active{
+    border-radius: 100px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Art Maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+body {
+  background-color:rgb(127, 181,181);
+}
+</style>
+<body>
+    <center>
+        <div id='board' class="board">
+
+        </div>
+
+        <p></p>
+
+        <input type="color" name="colo" id="colorName">
+
+        <p></p>
+
+        <div class="lastColors" id="lastColors"></div>
+
+        <p></p>
+
+        <button class="erase" id='erase'>Erase</button>
+        <button id="download">Download</button>
+        <button id="clear">Clear</button>
+        <div id="img-div"></div>
+    </center>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
